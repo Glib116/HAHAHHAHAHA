@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html   {
+        scroll-behavior: smooth;
+    }
+
+body {
+    font-family: "Poppins", "sans-serif";
+    background-color: #9e7575
+    color: #333
+    line-height: 1.6;
+
+
+}
+header {
+        background-color: aqua;
+        padding: 0px 0 ;
+        box-shadow: 0 4px  6px rgba(0,0,0,0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+
+}
+
+main {
+    margin-top: 30px;
+
+
+}
+nav {
+    display: flex;
+    justify content: space between;
+    alighn-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #fff;
+
+
+}
+
+.logo.img{
+        width: 60px;
+        height: auto;
+
+}
+
+.profile img {
+            width: 40px;
+            height: auto;
+}
+
+.nav-btn {
+        font-size: 1 rem ;
+        color: black;
+        text-decoration:none;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+                background-color: azure;
+                border-radius: 5px;
+}
+
+.search-input {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 250px;
+}
+.search button {
+                padding: 10px;
+                background-color: rgb(255, 0, 21);
+                color: aliceblue;
+                border:none;
+                border-radius: 5px;
+                cursor:pointer;
+                transition: background-color 0.3s ease;
+
+
+}
+
+.search button:hover {
+                    background-color: blue;
+}
+
+.geo-img{
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+}
+
+.geo-link {
+    font-size: 1rem;
+    color:black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#slider {
+    position: relative;
+    text-align: center;
+    top:80px;
+    margin: 0 auto;
+}
